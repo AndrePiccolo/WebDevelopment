@@ -1,0 +1,137 @@
+body{
+    font-family: Vollkorn, sans-serif;
+    position: relative;
+}
+
+video#bgvideo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+/*Style the navigation bar*/
+.navbar-dark{
+    background: #1b3759;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.nav li a:hover{
+    color: black !important;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+
+/*Home section*/
+#home{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home h1{
+    margin-bottom: 30px;
+}
+
+#home h2{
+    margin-bottom: 50px;
+}
+
+#home .btn{
+    background-color: rgba(29, 167, 179);
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+#home .btn:hover{
+    background-color: rgba(29, 167, 179, 0.5);
+}
+
+/*About section*/
+.container{
+    max-width: 1000px;
+}
+
+#about{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#about h2{
+    font-weight: bold;
+}
+
+#about h1{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.aboutImage{
+    height: 120px;
+}
+
+/*Promisse Section*/
+#promisse{
+    padding-top: 100px;
+}
+
+#myCarousel{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel-inner .carousel-item img{
+    height: 400px;
+}
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+/*Footer Sectio*/
+.footer{
+    background-color: #1b3759;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+@media (max-width:768px){
+    .carousel-inner .carousel-item img{
+        height: 300px;
+    }
+        .carousel-inner .carousel-item h2{
+        font-size: 23px;
+    }
+}
+
+@media (max-width:500px){
+    .carousel-inner .carousel-item img{
+        height: 200px;
+    }
+    
+    .carousel-inner .carousel-item h2{
+        font-size: 17px;
+    }
+    
+    .navbar-brand{
+        font-size: 12px;
+    }
+    
+    .carousel-caption{
+         height: 120px;
+    }
+}
